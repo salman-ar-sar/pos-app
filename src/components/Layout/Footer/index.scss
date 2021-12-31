@@ -1,0 +1,10 @@
+@use "../../../styles/" as *;
+
+.footer {
+  @include flexCenter;
+  background: $vanilla;
+  height: 10vh;
+  width: 100%;
+  font-size: 1.25rem;
+  color: rgba($squidInk-primary, 0.5);
+}
