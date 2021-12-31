@@ -11,7 +11,7 @@ const Sidebar: React.FC = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/bill/new" className="selected-item">
+          <NavLink to="/bills/new" className="selected-item">
             New Bill
           </NavLink>
         </li>
