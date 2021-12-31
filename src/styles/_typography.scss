@@ -1,0 +1,9 @@
+@use "./variables" as *;
+@use "./fonts" as *;
+
+.normal-heading {
+  font-family: "RobotoSlab";
+  font-weight: bold;
+  font-size: 5rem;
+  color: $kushGreen-primary;
+}
