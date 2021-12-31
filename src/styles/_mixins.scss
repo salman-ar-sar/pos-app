@@ -1,0 +1,45 @@
+@use "./variables" as *;
+
+@mixin reset-a {
+  text-decoration: none;
+  color: black;
+}
+
+@mixin reset-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  a {
+    @include reset-a;
+  }
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin gridCenter {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin miniLaptop {
+  @media (max-width: $miniLaptop) {
+    @content;
+  }
+}
