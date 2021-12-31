@@ -1,0 +1,98 @@
+// declaring color variables in scss
+$pumpkin-primary: #f58c49;
+$pumpkin-shade: #f36b16;
+$pumpkin-mediumTint: #f7a571;
+$pumpkin-medium-lightTint: #fcdbc6;
+$pumpkin-lightTint: #fdf2ea;
+
+$squidInk-primary: #02111b;
+$squidInk-shade: #2e3e50;
+$squidInk-mediumTint: #414f5f;
+$squidInk-mediumTint-2: #67727f;
+$squidInk-mediumTint-3: #8e8f91;
+$squidInk-lightTint: #ecedef;
+$squidInk-shadeGrey: #5f6c7b;
+$squidInk-lightGrey: #f3f6f8;
+
+// whites
+$cloud: #ffffff;
+$vanilla: #f5f8fa;
+$rainCloud: #eaf0f6;
+$thunderCloud: #e6eaed;
+$thunderCloudSolid: #e6eaed;
+
+// grays
+
+$africanDiamond: #a7a8a9;
+$zircon: #dadcdf;
+$dirtSnow: #ecedef;
+$wanWhite: #edece9;
+
+$indianChilliRed-primary: #e8001f;
+$indianChilliRed-shade: #d3001d;
+$indianChilliRed-mediumTint: #f6a2ad;
+$indianChilliRed-lightTint: #fcedef;
+
+$kushGreen-primary: #4ecdc4;
+$kushGreen-shade: #47bbb3;
+$kushGreen-mediumTint: #6ed6ce;
+$kushGreen-lightTint: #eefaf9;
+
+$goldenTainoi-primary: #ffc15e;
+$goldenTainoi-shade: #e8b056;
+$goldenTainoi-mediumTint: #ffdda7;
+$goldenTainoi-lightTint: #fff9f0;
+
+$turquoiseBlue-primary: #69c5ec;
+$turquoiseBlue-shade: #53afd6;
+$turquoiseBlue-mediumTint: #9fdaf2;
+$turquoiseBlue-lightTint: #f0f9fd;
+
+$mediumSlateBlue-primary: #7678ed;
+$mediumSlateBlue-shade: #6163c2;
+$mediumSlateBlue-mediumTint: #9b9cf1;
+$mediumSlateBlue-lightTint: #f2f2fd;
+
+$blackCoral-neutral: #53627b;
+$charcoal-neutral: #2b3d5b;
+
+:export {
+  pumpkinPrimary: $pumpkin-primary;
+  pumpkinShade: $pumpkin-shade;
+  pumpkinMediumTint: $pumpkin-mediumTint;
+  pumpkinMediumLightTint: $pumpkin-medium-lightTint;
+  pumpkinLightTint: $pumpkin-lightTint;
+  squidInkPrimary: $squidInk-primary;
+  squidInkShade: $squidInk-shade;
+  squidInkMediumTint: $squidInk-mediumTint;
+  squidInkMediumTint2: $squidInk-mediumTint-2;
+  squidInkLightTint: $squidInk-lightTint;
+  cloud: $cloud;
+  vanilla: $vanilla;
+  rainCloud: $rainCloud;
+  thunderCloud: $thunderCloud;
+  africanDiamond: $africanDiamond;
+  zircon: $zircon;
+  dirtSnow: $dirtSnow;
+  wanWhite: $wanWhite;
+  indianChilliRedPrimary: $indianChilliRed-primary;
+  indianChilliRedShade: $indianChilliRed-shade;
+  indianChilliRedMediumTint: $indianChilliRed-mediumTint;
+  indianChilliRedLightTint: $indianChilliRed-lightTint;
+  kushGreenPrimary: $kushGreen-primary;
+  kushGreenShade: $kushGreen-shade;
+  kushGreenMediumTint: $kushGreen-mediumTint;
+  kushGreenLightTint: $kushGreen-lightTint;
+  goldenTainoiPrimary: $goldenTainoi-primary;
+  goldenTainoiShade: $goldenTainoi-shade;
+  goldenTainoiMediumTint: $goldenTainoi-mediumTint;
+  goldenTainoiLightTint: $goldenTainoi-lightTint;
+  turquoiseBluePrimary: $turquoiseBlue-primary;
+  turquoiseBlueShade: $turquoiseBlue-shade;
+  turquoiseBlueMediumTint: $turquoiseBlue-mediumTint;
+  turquoiseBlueLightTint: $turquoiseBlue-lightTint;
+  mediumSlateBluePrimary: $mediumSlateBlue-primary;
+  mediumSlateBlueShade: $mediumSlateBlue-shade;
+  mediumSlateBlueMediumTint: $mediumSlateBlue-mediumTint;
+  mediumSlateBlueLightTint: $mediumSlateBlue-lightTint;
+}
