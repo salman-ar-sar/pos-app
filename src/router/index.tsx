@@ -1,18 +1,22 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "../components/Layout";
+import BillsList from "../pages/Bills/BillsList";
+import NewBill from "../pages/Bills/NewBill";
+import ViewBill from "../pages/Bills/ViewBill";
 import Home from "../pages/Home";
 
 const Router: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}>
-          {/* <Route index element={<Home />} />
-        <Route path="teams" element={<Teams />}>
-          <Route path=":teamId" element={<Team />} />
-          <Route path="new" element={<NewTeamForm />} />
-          <Route index element={<LeagueStandings />} />
-        </Route> */}
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="bills">
+            <Route index element={<BillsList />} />
+            <Route path=":invoiveNo" element={<ViewBill />} />
+            <Route path="new" element={<NewBill />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>
