@@ -1,0 +1,16 @@
+@use "../../../styles/" as *;
+
+.sidebar-container {
+  background: $vanilla;
+  height: 65vh;
+  .sidebar-list {
+    @include reset-ul;
+    padding: 1rem;
+    .list-elem {
+      padding: 0.25rem 0;
+      .selected-link {
+        color: $pumpkin-primary;
+      }
+    }
+  }
+}
