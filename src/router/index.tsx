@@ -11,12 +11,13 @@ const Router: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="bills">
             <Route index element={<BillsList />} />
             <Route path=":invoiveNo" element={<ViewBill />} />
             <Route path="new" element={<NewBill />} />
           </Route>
+          <Route index element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>
