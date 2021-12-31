@@ -1,0 +1,12 @@
+.layout-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-content: space-between;
+  .layout-content {
+    justify-self: left;
+    height: inherit;
+    width: 100%;
+  }
+}
